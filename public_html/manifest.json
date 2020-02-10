@@ -2,22 +2,34 @@
     "name": "Progressive Web App Startup",
     "short_name": "PWA-Startup",
     "icons": [{
-      "src": "/assets/images/icons/icon-16x16.png",
-        "sizes": "16x16",
+        "src": "/assets/images/icons/apple-touch-icon-57x57",
+        "sizes": "57x57",
         "type": "image/png"
       }, {
-        "src": "/assets/images/icons/icon-32x32.png",
-        "sizes": "32x32",
+        "src": "/assets/images/icons/apple-touch-icon-60x60",
+        "sizes": "60x60",
         "type": "image/png"
       }, {
-        "src": "/assets/images/icons/icon-192x192.png",
-        "sizes": "192x192",
+        "src": "/assets/images/icons/apple-touch-icon-72x72",
+        "sizes": "72x72",
         "type": "image/png"
       }, {
-        "src": "/assets/images/icons/icon-512x512.png",
-        "sizes": "192x192",
+        "src": "/assets/images/icons/apple-touch-icon-76x76",
+        "sizes": "76x76",
         "type": "image/png"
-      }],
+        }, {
+          "src": "/assets/images/icons/apple-touch-icon-114x114",
+          "sizes": "114x114",
+          "type": "image/png"
+        }, {
+          "src": "/assets/images/icons/apple-touch-icon-144x144",
+          "sizes": "144x144",
+          "type": "image/png"
+        }, {
+          "src": "/assets/images/icons/apple-touch-icon-180x180",
+          "sizes": "180x180",
+          "type": "image/png"
+        }],
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#3E4EB8",

@@ -40,7 +40,7 @@ function showInstallPromotion() {
       <h2>Tilføj til hjemmeskærm</h2>
       <div class="grid">
         <div class="div1">
-          <img src="/assets/images/icons/favicon-32x32.png" />
+          <img alt="PWA Startup Ikon" src="/assets/images/icons/favicon-32x32.png" />
         </div>
         <div class="div2">
           <strong>PWA Start</strong><br>

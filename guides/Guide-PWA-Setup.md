@@ -111,6 +111,32 @@ if ('serviceWorker' in navigator) {
 }
 ```
 ___
+9. Referer til en reference til dit script fra *&lt;head&gt;* tagget i din *index.html* fil:
+```html
+<script src="/assets/js/scripts.js">
+```
+___
+10. Nu kan du oprette dine *SASS* og *CSS* filer i css mappen og linke til dem i din *index.html* fil.
+___
+11. Test om din progressive app virker med *__Audits__*.
+  
+      Audits betyder revision eller kontrol og med dette værktøj kan du kontrollere, identificere og fikse almindelige problemer, som har betydning for din sides ydeevne, tilgængelighed og bruger oplevelse. Alt i alt er værktøjet en genial mentor at have ved hånden når vi bygger både sider og pwa'er.
+  - Indlæs siden
+  - Åbn devtools (browserens udvikler værktøj)
+    - MAC: Cmd + Shift + J
+    - WIN: Ctrl + Shift + J
+  - Klik på *Audits* i menuen
+  - Vælg device (Mobile/Desktop)
+  - Vælg de *audits* du vil kontrollere.
+  - Vælg *throttling*. (Begrænsning af forbindelse og CPU)
+  - Vælg *Clear Storage*
+  - Klik på *Run audits*
+
+  Nu får du resultatet af din kontrol og her gælder det om at få så høje tal som muligt for at give din side den  bedste ydeevne. Der skal også gerne være et V i PWA cirklen for at dit site kører rigtigt som en Progressiv Web App.
+
+  Heldigvis har værktøjet nogle gode og præcise fejlmeddelser og links til sider, der forklarer hvordan du kan rette disse. Derfor kan du lære rigtig meget af at bruge dette værktøj hyppigt - både til Progressive Web App og almindelige websites.
+___
+
 ## Reflektion
 Prøv eventuelt at gennemgå guiden hvor du  øver dig i at forklare de enkelte trin for dig selv eller en klassekammerat/ven. 
 

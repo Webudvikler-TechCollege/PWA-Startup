@@ -129,7 +129,7 @@ ___
   - Vælg device (Mobile/Desktop)
   - Vælg de *audits* du vil kontrollere.
   - Vælg *throttling*. (Begrænsning af forbindelse og CPU)
-  - Vælg *Clear Storage*
+  - Vælg *Clear Storage* (Nulstiller din cache)
   - Klik på *Run audits*
 
   Nu får du resultatet af din kontrol og her gælder det om at få så høje tal som muligt for at give din side den  bedste ydeevne. Der skal også gerne være et V i PWA cirklen for at dit site kører rigtigt som en Progressiv Web App.

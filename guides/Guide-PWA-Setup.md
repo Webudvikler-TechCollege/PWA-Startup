@@ -2,10 +2,10 @@
 
 Følgende guide vil hjælpe dig med at opsætte en Progressive Web App. For at vi kan lave en progressive web app er der nogle kriterier som skal være opfyldt og disse er listet herunder.
 
-* Sitet skal køre over *_HTTPS_*
-* Sitet skal være *_RESPONSIVT_* og virke på mobil og tablets
-* Sitet skal kunne installeres og dermed køre med et *_WEB APP MANIFEST_*
-* Sitet skal virke offline og dermed køre med en *_SERVICEWORKER_*
+* Sitet skal køre over *_HTTPS_*. Dette skal opsættes på din *server*.
+* Sitet skal være *_RESPONSIVT_* og virke på mobil og tablets. Her kan du bruge *prekompileret CSS*.
+* Sitet skal kunne installeres og dermed køre med et *_WEB APP MANIFEST_*. Dette gør du med en *manifest.json* fil.
+* Sitet skal virke offline og dermed køre med en *_SERVICEWORKER_*. Her skal du bruge en *serviceworker.js* fil.
 
 Før vi går i gang skal du oprette en projektmappe - du kan kalde den for pwa_startup eller hvad du nu selv synes. 
 

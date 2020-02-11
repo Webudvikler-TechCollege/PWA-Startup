@@ -1,4 +1,4 @@
-# Guide til opsætning af Progressive Web App 
+# Guide til opsætning af en Progressive Web App 
 
 Følgende guide vil hjælpe dig med at opsætte en Progressive Web App. For at vi kan lave en progressive web app er der nogle kriterier som skal være opfyldt og disse er listet herunder.
 

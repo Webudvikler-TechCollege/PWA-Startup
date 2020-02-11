@@ -5,6 +5,12 @@ body {
     background-color: $color-navyblue;
 }
 
+h1 {
+    color: $color-goldenyellow;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
 .installprompt {
     background-color: $color-white;
     border: solid 2px $color-darkred;

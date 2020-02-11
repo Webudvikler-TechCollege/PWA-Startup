@@ -1,4 +1,66 @@
+/* Defaults */
+/* The 17 Goals Color Scheme */
+* {
+  font-family: Helvetica;
+}
+
 body {
   background-color: #19486a;
+}
+
+.installprompt {
+  background-color: #fff;
+  border: solid 2px #c5192d;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 5px 1px #333;
+          box-shadow: 0px 0px 5px 1px #333;
+  padding: 0rem 0.5rem;
+}
+
+.installprompt h2 {
+  font-size: 1rem;
+}
+
+.installprompt .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 9fr;
+      grid-template-columns: 1fr 9fr;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.installprompt .grid .div1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.installprompt .grid .div2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.installprompt .grid .div3 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 2 / 1 / 3 / 3;
+  text-align: right;
+}
+
+.installprompt .grid button {
+  border: 0px none;
+  color: #00689d;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 /*# sourceMappingURL=master.css.map */

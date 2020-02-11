@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,+BAA+B",
+    "mappings": "AAAA,cAAc;AAId,+BAA+B",
     "sources": [
         "../../../sass/colors.scss"
     ],

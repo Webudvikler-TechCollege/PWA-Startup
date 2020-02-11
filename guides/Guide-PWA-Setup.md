@@ -10,13 +10,13 @@ Følgende guide vil hjælpe dig med at opsætte en Progressive Web App. For at v
 Før vi går i gang skal du oprette en projektmappe - du kan kalde den for pwa_startup eller hvad du nu selv synes. 
 
 Hvis du vil køre din app op imod skolens server er det en god ide at have den samme mappe struktur og derfor skal du så lave en *public_html* i din projektmappe.
-
+___
 1. Opret projektmappe i din stifinder. Du kan kalde den for pwa_startup eller lignende.
-
+___
 2. Åbn denne mappe i VS Code
-
+___
 3. Hvis du vil køre din app op imod skolens server er det en god ide at have den samme mappe struktur og derfor skal du så lave en *public_html* i din projektmappe.
-
+___
 3. Opret filen *index.html* i roden af din *public_html* mappe og indsæt følgende html skelet i filen.
 ```html
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ Hvis du vil køre din app op imod skolens server er det en god ide at have den s
 </body>
 </html>
 ```
-
+___
 4. Opret filen *manifest.json* på roden af din *public_html* mappe og indsæt følgende kode:
 ```json
 {
@@ -53,11 +53,12 @@ Hvis du vil køre din app op imod skolens server er det en god ide at have den s
 Der skal sandsynligvis skrives nogle flere ikoner ind i dit manifest. Du kan læse mere om hvordan du laver og forbereder dine logoer på følgende links:
 * [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
 * [https://css-tricks.com/maskable-icons-android-adaptive-icons-for-your-pwa/](https://css-tricks.com/maskable-icons-android-adaptive-icons-for-your-pwa/)
-
+___
 5. Lav en reference til dit manifest fra *&lt;head&gt;* tagget i din *index.html* fil:
 ```html
 <link rel="manifest" href="/manifest.json">
 ```
+___
 6. Opret filen *service-worker.js* i roden af din *public_html* mappe. Indsæt følgende i filen:
 ```javascript
 // Installerer serviceworker
@@ -93,8 +94,9 @@ self.addEventListener("fetch", function(event) {
     );
 });
 ```
+___
 7. Når du har oprettet din serviceworker skal du installere den. Det gøres ved hjælp af javascript og derfor skal du lave fil til dine scripts. Opret derfor en *assets* mappe i roden af din *public_html* mappe. I denne mappe kan du oprette to nye mapper: *js* og *css*.
-
+___
 8. Opret filen *scripts.js* i *js* mappen og indsæt følgende:
 ```javascript
 // Tjekker om browseren tillader en serviceworker 
@@ -108,6 +110,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 ```
+___
 ## Reflektion
 Prøv eventuelt at gennemgå guiden hvor du  øver dig i at forklare de enkelte trin for dig selv eller en klassekammerat/ven. 
 

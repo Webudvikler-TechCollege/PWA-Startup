@@ -44,10 +44,12 @@ ___
 ___
 3. I javascript filen skal vi først sætte en variabel til at registrere vores prompt plus en variabel til vores banner objekt:
 ```javascript
-// Sætter variabler
+// Sætter variabler til registrering af prompt og UI banner
 let browserPrompt;
 let a2hsBanner = document.getElementById('a2hs-banner');
 ```
+___
+4. 
 ___
 
 ## Reflektion

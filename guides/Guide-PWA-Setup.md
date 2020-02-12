@@ -76,6 +76,11 @@ self.addEventListener("install", function(e) {
     );
 });
 
+// Aktiver serviceworker
+self.addEventListener("activate", function(event) {
+    console.log("Service Worker Aktiveret");
+});
+
 // Lyt på requests til browseren
 self.addEventListener("fetch", function(event) {
     // Tjek event

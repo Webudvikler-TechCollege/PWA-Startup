@@ -49,7 +49,18 @@ let browserPrompt;
 let a2hsBanner = document.getElementById('a2hs-banner');
 ```
 ___
-4. 
+4. Chrome browseren har et stadie der kaldes *beforeinstallprompt*. PÅ denne kan vi måle om vores app er installeret eller ej. Hvis det ikke er installeret skal vi gøre vores banner synligt. Hvis det er installeret vil browseren ikke bevæge sig ind i nedenstående scope.
+```javascript
+// Lytter på beforeinstallprompt eventet
+window.addEventListener('beforeinstallprompt', (e) => {
+    // Tjek at vi rammer scopet
+    console.log('Før installation af prompt');
+    // Gem event så vi kan kalde det senere
+    deferredPrompt = e;
+    // Opdater UI sæt banner til synlig
+    a2hsBanner.style.display = 'block';
+ });
+```
 ___
 
 ## Reflektion

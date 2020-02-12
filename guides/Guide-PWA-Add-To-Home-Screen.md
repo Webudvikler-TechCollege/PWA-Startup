@@ -32,7 +32,7 @@ ___
       </div>
       <div class="div3">
         <button type="button" id="btnadd">Ok</button>
-        <button type="button" id="btndismiss">Cancel</button>
+        <button type="button" id="btndismiss">Annuller</button>
       </div>
     </div>
 </section>
@@ -61,6 +61,29 @@ window.addEventListener('beforeinstallprompt', (e) => {
     a2hsBanner.style.display = 'block';
  });
 ```
+___
+5. Vi skal indsætte et script der kan lytte på click event på OK knappen i vores UI banner. Hvis der kommer et click event skal browseren kalde prompten der kan tilføje appen til hjemmeskærmen:
+```javascript
+// Lytter på et event fra OK knap
+document.getElementById('btnadd').addEventListener('click', (e) => {
+  // Skjul UI når bruger klikker
+  a2hsBanner.style.display = 'none';
+  // Vis browser prompt
+  deferredPrompt.prompt();
+  // Vent til at bruger besvarer prompten
+  deferredPrompt.userChoice 
+    .then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('Bruger har accepteret A2HS prompten');
+      } else {
+        console.log('Bruger har afvist A2HS prompten');
+      }
+      deferredPrompt = null;
+    });
+});
+```
+___
+6. Vi skal også indsætte et script der kan lytte på vores Annuller knap og derefter skjule banneret. Her kan du selv prøve dig frem ved at kigge på den foregående funktionalitet.
 ___
 
 ## Reflektion

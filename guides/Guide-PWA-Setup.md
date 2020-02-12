@@ -51,8 +51,8 @@ ___
 }
 ```
 Der skal sandsynligvis skrives nogle flere ikoner ind i dit manifest. Du kan læse mere om hvordan du laver og forbereder dine logoer på følgende links:
-* [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
-* [https://css-tricks.com/maskable-icons-android-adaptive-icons-for-your-pwa/](https://css-tricks.com/maskable-icons-android-adaptive-icons-for-your-pwa/)
+* [Favicon generator](https://realfavicongenerator.net/)
+* [Awesome fifs til meta og manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest)
 ___
 5. Lav en reference til dit manifest fra *&lt;head&gt;* tagget i din *index.html* fil:
 ```html

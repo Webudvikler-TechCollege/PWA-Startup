@@ -42,7 +42,7 @@ ___
 ___
 3. Opret en javascript fil i din *js* mappe. Kald den eventuelt for *add2homescreen.js*.
 ___
-3. I javascript filen skal vi først sætte en variabel til vores prompt
+3. I javascript filen skal vi først sætte en variabel til at registrere vores prompt:
 ```javascript
 
 ```

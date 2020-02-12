@@ -11,7 +11,8 @@ h1 {
     font-size: 1.4rem;
 }
 
-.installprompt {
+#a2hs-banner {
+    display: none;
     background-color: $color-white;
     border: solid 2px $color-darkred;
     border-radius: 3px;

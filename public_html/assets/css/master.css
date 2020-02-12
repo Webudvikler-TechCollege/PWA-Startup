@@ -14,7 +14,8 @@ h1 {
   font-size: 1.4rem;
 }
 
-.installprompt {
+#a2hs-banner {
+  display: none;
   background-color: #fff;
   border: solid 2px #c5192d;
   border-radius: 3px;
@@ -23,11 +24,11 @@ h1 {
   padding: 0rem 0.5rem;
 }
 
-.installprompt h2 {
+#a2hs-banner h2 {
   font-size: 1rem;
 }
 
-.installprompt .grid {
+#a2hs-banner .grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 9fr;
@@ -38,7 +39,7 @@ h1 {
   grid-row-gap: 0px;
 }
 
-.installprompt .grid .div1 {
+#a2hs-banner .grid .div1 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
@@ -46,7 +47,7 @@ h1 {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-.installprompt .grid .div2 {
+#a2hs-banner .grid .div2 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 2;
@@ -54,7 +55,7 @@ h1 {
   grid-area: 1 / 2 / 2 / 3;
 }
 
-.installprompt .grid .div3 {
+#a2hs-banner .grid .div3 {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
@@ -63,7 +64,7 @@ h1 {
   text-align: right;
 }
 
-.installprompt .grid button {
+#a2hs-banner .grid button {
   border: 0px none;
   color: #000;
   text-transform: uppercase;

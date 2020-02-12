@@ -9,7 +9,6 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
     <script src="/assets/js/script.js"></script>
-    <script src="/assets/js/add2homescreen.js"></script>
     <link rel="stylesheet" href="/assets/css/master.css">
     <title>Progressive Web App Start Up</title>
 </head>
@@ -24,6 +23,25 @@
 </main>
 
 <footer></footer>
+
+<section class="installprompt">
+    <h2>Tilføj til hjemmeskærm</h2>
+    <div class="grid">
+      <div class="div1">
+        <img alt="PWA Startup Ikon" src="/assets/images/icons/favicon-32x32.png" />
+      </div>
+      <div class="div2">
+        <strong>PWA Start</strong><br>
+        Min første App
+      </div>
+      <div class="div3">
+        <button type="button" id="btnadd">Ok</button>
+        <button type="button" id="btndismiss">Cancel</button>
+      </div>
+    </div>
+</section>
+
+<script src="/assets/js/add2homescreen.js"></script>
 
 </body>
 </html>

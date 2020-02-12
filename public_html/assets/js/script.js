@@ -54,12 +54,12 @@ function showInstallPromotion() {
     </section>
   `;
   // Indsætter UI på siden
-  document.getElementById('prompt-placeholder').innerHTML = htmlprompt;
+  document.getElementById('a2hs-placeholder').innerHTML = htmlprompt;
 
   // Lytter på et event fra OK knap
   document.getElementById('btnadd').addEventListener('click', (e) => {
     // Skjul UI når bruger klikker
-    document.getElementById('prompt-placeholder').style.display = 'none';
+    document.getElementById('a2hs-placeholder').style.display = 'none';
     // Vis browser prompt
     deferredPrompt.prompt();
     // Vent til at bruger besvarer prompten
@@ -77,7 +77,7 @@ function showInstallPromotion() {
   // Lytter på et event fra Cancel knap
   document.getElementById('btndismiss').addEventListener('click', (e) => {
     // Skjul UI når bruger klikker
-    document.getElementById('prompt-placeholder').style.display = 'none';
+    document.getElementById('a2hs-placeholder').style.display = 'none';
   });
   
 }

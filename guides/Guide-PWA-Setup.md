@@ -113,7 +113,7 @@ if ('serviceWorker' in navigator) {
 ___
 9. Referer til en reference til dit script fra *&lt;head&gt;* tagget i din *index.html* fil:
 ```html
-<script src="/assets/js/scripts.js">
+<script src="/assets/js/scripts.js"></script>
 ```
 ___
 10. Nu kan du oprette dine *SASS* og *CSS* filer i css mappen og linke til dem i din *index.html* fil.
